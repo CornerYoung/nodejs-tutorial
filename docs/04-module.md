@@ -76,7 +76,7 @@ module.exports.c = 789
 
 **导出多个成员：写法二（推荐）**
 
-Node 为了降低开发人员的痛苦，所以为 `module.exports` 提供了一个别名 `exports` （下面协大等价于上面的写法）。
+Node 为了降低开发人员的痛苦，所以为 `module.exports` 提供了一个别名 `exports` （下面写法等价于上面的写法）。
 
 ```javascript
 console.log(exports === module.exports) // => true
